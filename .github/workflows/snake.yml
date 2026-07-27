@@ -1,0 +1,49 @@
+# Contribution Snake Animation
+# Generates a snake that eats your contribution graph, leaving a trail
+# Deploys to gh-pages branch automatically
+#
+# How to set up:
+# 1. Push this file to .github/workflows/snake.yml in your profile repo
+# 2. Go to repo Settings → Pages → set source to "gh-pages" branch
+# 3. The image URL will be:
+#    https://Mrxfg.github.io/Mrxfg/contribution-snake/snake-dark.svg
+#    https://Mrxfg.github.io/Mrxfg/contribution-snake/snake-light.svg
+
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"          # every day at midnight UTC
+  workflow_dispatch:              # allow manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate Snake (dark)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Mrxfg
+          outputs: |
+            dist/contribution-snake/snake-dark.svg?palette=github-dark&color_snake=#22D3EE&color_dots=#0A101F,#161B2D,#1E2740,#2A3A5C,#3B5284
+
+      - name: Generate Snake (light)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Mrxfg
+          outputs: |
+            dist/contribution-snake/snake-light.svg?palette=github-light&color_snake=#7C3AED&color_dots=#FFFFFF,#E2E8F0,#CBD5E1,#94A3B8,#64748B
+
+      - name: Push to gh-pages branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: gh-pages
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
