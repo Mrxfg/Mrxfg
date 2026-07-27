@@ -1,39 +1,3 @@
-
-### ⚡ Quick Stats
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Mrxfg&show_icons=true&bg_color=0A101F&text_color=E2E8F0&title_color=22D3EE&icon_color=22D3EE&border_color=1A9CB0&hide_border=true&include_all_commits=true&count_private=true&disable_animations=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Mrxfg&show_icons=true&bg_color=FFFFFF&text_color=1E293B&title_color=0891B2&icon_color=0891B2&border_color=E2E8F0&hide_border=true&include_all_commits=true&count_private=true&disable_animations=true">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mrxfg&show_icons=true&bg_color=0A101F&text_color=E2E8F0&title_color=22D3EE&icon_color=22D3EE&hide_border=true" height="160">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/streak?username=Mrxfg&background=0A101F&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=E2E8F0&currStreakNum=E2E8F0&sideNums=94A3B8&dates=94A3B8&border=1A9CB0&hide_border=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/streak?username=Mrxfg&background=FFFFFF&ring=0891B2&fire=0891B2&currStreakLabel=0891B2&sideLabels=1E293B&currStreakNum=1E293B&sideNums=64748B&dates=64748B&border=E2E8F0&hide_border=true">
-  <img src="https://github-readme-stats.vercel.app/api/streak?username=Mrxfg&background=0A101F&ring=22D3EE&fire=22D3EE&hide_border=true" height="160">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Mrxfg&layout=compact&bg_color=0A101F&text_color=E2E8F0&title_color=22D3EE&border_color=1A9CB0&hide_border=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Mrxfg&layout=compact&bg_color=FFFFFF&text_color=1E293B&title_color=0891B2&border_color=E2E8F0&hide_border=true">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mrxfg&layout=compact&bg_color=0A101F&text_color=E2E8F0&title_color=22D3EE&hide_border=true" height="160">
-</picture>
-
-> **Note:** The stats above use the public `github-readme-stats` API. For guaranteed uptime, self-host your own instance via Vercel — [instructions here](#-self-hosted-stats-cards).
-
----
-
-### 🐍 Contribution Map
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://Mrxfg.github.io/Mrxfg/contribution-snake/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://Mrxfg.github.io/Mrxfg/contribution-snake/snake-light.svg">
-  <img src="https://Mrxfg.github.io/Mrxfg/contribution-snake/snake-dark.svg" alt="Contribution Snake" width="100%">
-</picture>
-
-*The snake runs daily via GitHub Actions (`snake.yml`).*
-*(Replace the URL above with your own after the first workflow run.)*
-
----
-
 ### 🛠️ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
